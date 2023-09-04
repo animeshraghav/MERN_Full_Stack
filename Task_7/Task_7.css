@@ -1,0 +1,45 @@
+.vertical-menu {
+    width: 200px;
+  }
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block; 
+    padding: 12px;
+    text-decoration: none; 
+  }
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+/* .horizontal-menu{
+    margin: 0;
+    padding: 0;
+} */
+.horizontal-menu a{
+    background-color: #929191;
+    color: black;
+    display: block; 
+    padding: 12px;
+    text-decoration: #00bcd4; 
+}
+.horizontal-menu{
+    display: flex; 
+    justify-content: center; 
+    padding: 15px 0; 
+}
+.horizontal-menu{
+    margin: 25 15px; 
+}
+
+.horizontal-menu {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+}
+.horizontal-menu {
+    color: #00bcd4; 
+}
